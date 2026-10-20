@@ -1,0 +1,203 @@
+.section {
+  background: var(--brand-100);
+}
+
+.head {
+  display: grid;
+  gap: 20px;
+  max-width: 760px;
+  margin-bottom: clamp(44px, 6vw, 72px);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+  gap: clamp(32px, 5vw, 80px);
+}
+
+.label {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--brand);
+  margin-bottom: 18px;
+}
+
+.guides {
+  display: grid;
+  gap: 16px;
+}
+
+.guide {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: clamp(20px, 3vw, 32px);
+  align-items: center;
+  padding: 18px;
+  border-radius: var(--radius);
+  background: var(--white);
+  text-decoration: none;
+  box-shadow: var(--shadow-soft);
+  transition:
+    box-shadow 0.6s var(--ease-out),
+    transform 0.6s var(--ease-out);
+}
+.guide:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lift);
+}
+
+/* Typographic booklet cover, tilts on hover */
+.cover {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  aspect-ratio: 3 / 4;
+  padding: 14px 12px;
+  border-radius: 6px 12px 12px 6px;
+  background: linear-gradient(150deg, var(--brand), var(--ink));
+  color: var(--white);
+  box-shadow:
+    inset 6px 0 0 rgba(0, 0, 0, 0.18),
+    0 18px 30px -16px rgba(42, 20, 12, 0.6);
+  transform: perspective(700px) rotateY(-14deg) rotateX(3deg);
+  transition: transform 0.7s var(--ease-out);
+}
+.cover[data-variant="1"] {
+  background: linear-gradient(150deg, var(--brand-500), var(--brand-700));
+}
+.guide:hover .cover {
+  transform: perspective(700px) rotateY(0deg) rotateX(0deg) scale(1.03);
+}
+.coverLabel {
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--brand-300);
+}
+.coverTitle {
+  font-family: var(--font-display);
+  font-size: 15px;
+  line-height: 1.12;
+}
+.coverRule {
+  width: 28px;
+  height: 2px;
+  background: var(--brand-300);
+}
+
+.guideText {
+  display: grid;
+  gap: 8px;
+}
+.guideTitle {
+  font-family: var(--font-display);
+  font-size: clamp(22px, 2vw, 27px);
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+.guideBody {
+  font-size: 15.5px;
+  color: var(--muted);
+}
+.guideCta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--brand);
+}
+
+.tools {
+  border-top: 1px solid rgba(140, 63, 37, 0.22);
+}
+
+.tool {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-areas:
+    "meta arrow"
+    "title arrow";
+  align-items: center;
+  column-gap: 16px;
+  padding: 18px 4px;
+  border-bottom: 1px solid rgba(140, 63, 37, 0.22);
+  text-decoration: none;
+  overflow: hidden;
+  isolation: isolate;
+}
+.tool::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: var(--white);
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: transform 0.5s var(--ease-out);
+}
+.tool:hover::before {
+  transform: scaleY(1);
+}
+.toolMeta {
+  grid-area: meta;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--brand-500);
+  transition: transform 0.5s var(--ease-out);
+}
+.toolTitle {
+  grid-area: title;
+  font-size: 19px;
+  font-weight: 500;
+  color: var(--ink);
+  transition: transform 0.5s var(--ease-out);
+}
+.tool:hover .toolMeta,
+.tool:hover .toolTitle {
+  transform: translateX(12px);
+}
+.toolArrow {
+  grid-area: arrow;
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 1px solid rgba(140, 63, 37, 0.22);
+  color: var(--brand);
+  transition:
+    background-color 0.4s ease,
+    color 0.4s ease,
+    transform 0.5s var(--ease-out);
+}
+.tool:hover .toolArrow {
+  background: var(--brand);
+  color: var(--white);
+  transform: rotate(45deg);
+}
+
+@media (max-width: 980px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 520px) {
+  .guide {
+    grid-template-columns: 96px 1fr;
+    padding: 14px;
+  }
+  .coverTitle {
+    font-size: 11px;
+  }
+}

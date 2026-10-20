@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "title": "Turnstone Financial Planning | Financial Planners in Boulder, CO",
+    "description": "Financial planning for life's big transitions: retirement, a job change, divorce, or the loss of a loved one. Investments, insurance and taxes in one clear plan. Boulder, Colorado.",
+    "siteName": "Turnstone Financial Planning",
+    "locale": "en_US"
+  },
+  "brand": {
+    "name": "Turnstone Financial Planning",
+    "logo": {
+      "alt": "Turnstone Financial Planning"
+    }
+  },
+  "contact": {
+    "phoneDisplay": "(000) 000-0000",
+    "phoneHref": "tel:+10000000000",
+    "addressLines": [
+      "1800 Canyon Avenue, Suite 300",
+      "Boulder, CO 80302"
+    ],
+    "mapLabel": "Get directions",
+    "mapHref": "#"
+  },
+  "header": {
+    "skipLink": "Skip to content",
+    "nav": [
+      {
+        "label": "Transitions",
+        "href": "#"
+      },
+      {
+        "label": "About",
+        "href": "#"
+      },
+      {
+        "label": "Insights",
+        "href": "#"
+      },
+      {
+        "label": "Tools",
+        "href": "#"
+      }
+    ],
+    "clientLogin": {
+      "label": "Client login",
+      "href": "#"
+    },
+    "cta": {
+      "label": "Talk to an advisor",
+      "href": "#contact"
+    },
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu",
+    "mobileCallLabel": "Call us"
+  },
+  "mobileBar": {
+    "call": "Call",
+    "cta": "Talk to an advisor",
+    "ctaHref": "#contact"
+  },
+  "footer": {
+    "tagline": "Financial planning for the moments that change everything.",
+    "columns": [
+      {
+        "title": "Transitions",
+        "links": [
+          {
+            "label": "Retirement",
+            "href": "#"
+          },
+          {
+            "label": "Job change",
+            "href": "#"
+          },
+          {
+            "label": "Divorce",
+            "href": "#"
+          },
+          {
+            "label": "Death of a loved one",
+            "href": "#"
+          }
+        ]
+      },
+      {
+        "title": "About",
+        "links": [
+          {
+            "label": "Why us",
+            "href": "#"
+          },
+          {
+            "label": "Our process",
+            "href": "#"
+          },
+          {
+            "label": "Our team",
+            "href": "#"
+          },
+          {
+            "label": "Our story",
+            "href": "#"
+          }
+        ]
+      },
+      {
+        "title": "Resources",
+        "links": [
+          {
+            "label": "Insights",
+            "href": "#"
+          },
+          {
+            "label": "Tools",
+            "href": "#"
+          },
+          {
+            "label": "FAQ",
+            "href": "#"
+          },
+          {
+            "label": "Client login",
+            "href": "#"
+          }
+        ]
+      }
+    ],
+    "contactTitle": "Visit or call",
+    "social": [
+      {
+        "label": "Facebook",
+        "href": "#"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "#"
+      }
+    ],
+    "disclosures": [
+      "This website is a design template with placeholder content. Nothing here is tax, legal or investment advice.",
+      "A real firm must replace this text with its own regulatory disclosures, including how its investment advisory services are offered."
+    ],
+    "legalLinks": [
+      {
+        "label": "Client Relationship Summary",
+        "href": "#"
+      },
+      {
+        "label": "Privacy",
+        "href": "#"
+      }
+    ],
+    "copyright": "© 2026 Turnstone Financial Planning",
+    "credit": {
+      "prefix": "Designed by",
+      "label": "CoreConcepts Design",
+      "href": "https://coreconcepts.design/"
+    }
+  }
+}

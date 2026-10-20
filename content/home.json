@@ -1,0 +1,331 @@
+{
+  "hero": {
+    "eyebrow": "Financial planning in Boulder, Colorado",
+    "titleLines": [
+      "Big life change?",
+      "We'll make the",
+      "money side clear."
+    ],
+    "titleAccent": "clear.",
+    "lead": "Retiring, changing jobs, going through a divorce or coping with a loss. We turn the financial questions that come with it into one calm, written plan, with your investments, insurance and taxes working together.",
+    "primaryCta": {
+      "label": "Talk to an advisor",
+      "href": "#contact"
+    },
+    "secondaryCta": {
+      "label": "Find your situation",
+      "href": "#situations"
+    },
+    "credentials": [
+      "CERTIFIED FINANCIAL PLANNER™",
+      "Certified Divorce Financial Analyst"
+    ],
+    "visual": {
+      "label": "Your plan",
+      "rotatingPrefix": "Ready for",
+      "rotating": [
+        "retirement",
+        "a new job",
+        "life after divorce",
+        "what comes after a loss"
+      ],
+      "pillars": [
+        "Investments",
+        "Insurance",
+        "Taxes"
+      ],
+      "pathStart": "Today",
+      "pathEnd": "Your next chapter",
+      "note": "One plan, built around your family"
+    }
+  },
+  "trust": {
+    "label": "Why people trust us with their next chapter",
+    "items": [
+      "CERTIFIED FINANCIAL PLANNER™",
+      "Certified Divorce Financial Analyst",
+      "Family-focused planning",
+      "Investments, insurance and taxes under one roof",
+      "Independent, fiduciary advice",
+      "Based in Boulder, CO"
+    ]
+  },
+  "situations": {
+    "id": "situations",
+    "eyebrow": "Start here",
+    "title": "What's changing in your life?",
+    "intro": "Pick the one that sounds like you. We'll show you the questions we hear most and how we help answer them.",
+    "worriesLabel": "You might be asking",
+    "helpLabel": "How we help",
+    "items": [
+      {
+        "key": "retire",
+        "tab": "I'm about to retire",
+        "short": "Retirement",
+        "title": "Turn your savings into income that lasts.",
+        "worries": [
+          "When can I actually afford to stop working?",
+          "How do I turn my savings into a steady paycheck?",
+          "How do I keep taxes from eating into my withdrawals?"
+        ],
+        "help": [
+          "A retirement roadmap built around the life you want after work",
+          "Investments, insurance and taxes planned together, not in silos",
+          "A plan we revisit with you as markets and life move"
+        ],
+        "cta": "Plan my retirement"
+      },
+      {
+        "key": "job",
+        "tab": "I'm changing jobs",
+        "short": "Job change",
+        "title": "Make the move without losing ground.",
+        "worries": [
+          "What should I do with my old 401(k)?",
+          "How do the new benefits really compare?",
+          "Will this change throw my long-term goals off track?"
+        ],
+        "help": [
+          "Plain-language options for your old retirement accounts",
+          "A clear look at what the new role means for your finances",
+          "Your goals updated so the new job moves you forward"
+        ],
+        "cta": "Talk about my job change"
+      },
+      {
+        "key": "divorce",
+        "tab": "I'm getting divorced",
+        "short": "Divorce",
+        "title": "Step into your next chapter with clarity.",
+        "worries": [
+          "What will my finances look like after this?",
+          "How should our assets and retirement accounts be divided?",
+          "Can I afford to keep the house?"
+        ],
+        "help": [
+          "Objective guidance from a Certified Divorce Financial Analyst",
+          "We work alongside your attorney and tax professional",
+          "A cohesive plan for life after the settlement"
+        ],
+        "cta": "Get divorce guidance"
+      },
+      {
+        "key": "loss",
+        "tab": "I've lost a loved one",
+        "short": "Loss",
+        "title": "Space to grieve. Help with the rest.",
+        "worries": [
+          "What needs to be handled now, and what can wait?",
+          "Will I be okay financially?",
+          "Who do I call about accounts and policies?"
+        ],
+        "help": [
+          "A calm, step-by-step view of the financial decisions ahead",
+          "Clear explanations so nothing is decided under pressure",
+          "Ongoing support, so you can focus on remembering them"
+        ],
+        "cta": "Ask for support"
+      }
+    ],
+    "unsure": {
+      "title": "Not sure which fits?",
+      "body": "Life rarely changes one thing at a time. Call us and we will help you sort out where to start.",
+      "callLabel": "Call"
+    }
+  },
+  "belief": {
+    "eyebrow": "What we believe",
+    "statement": "Change is inevitable. Financial suffering is preventable.",
+    "body": "Most of our clients come to us in the middle of something big. Our job is to simplify the decisions in front of you, so a hard season doesn't become a long-term setback."
+  },
+  "services": {
+    "eyebrow": "What we do",
+    "title": "One plan. Every piece connected.",
+    "intro": "Most people have an account here, a policy there and a tax return somewhere else. We bring it together so every decision supports the same goals.",
+    "centerLabel": "Your plan",
+    "items": [
+      {
+        "key": "investments",
+        "title": "Investments",
+        "body": "A strategy matched to your goals, timeline and comfort with risk, so your money has a clear job to do."
+      },
+      {
+        "key": "insurance",
+        "title": "Insurance",
+        "body": "Coverage reviewed as part of the whole plan, protecting your family and the progress you've made."
+      },
+      {
+        "key": "taxes",
+        "title": "Tax-aware planning",
+        "body": "Decisions made with taxes in mind, coordinated with your CPA or tax professional."
+      },
+      {
+        "key": "legacy",
+        "title": "Legacy",
+        "body": "Making sure what you've built goes where you intend, working alongside your estate attorney."
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "How it works",
+    "title": "From uncertain to a clear plan, in four steps.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Start with a conversation",
+        "body": "Tell us what's changing. We'll listen, answer your first questions and tell you honestly whether we're the right fit."
+      },
+      {
+        "number": "02",
+        "title": "We get the full picture",
+        "body": "Your family, your accounts, your goals and your worries. Understanding all of it is what makes the plan work."
+      },
+      {
+        "number": "03",
+        "title": "You receive your roadmap",
+        "body": "A clear plan that brings investments, insurance and taxes together, explained in plain language."
+      },
+      {
+        "number": "04",
+        "title": "We adjust as life moves",
+        "body": "Plans need to change when life does. We stay with you and update the roadmap along the way."
+      }
+    ],
+    "cta": {
+      "label": "Start with a conversation",
+      "href": "#contact"
+    }
+  },
+  "why": {
+    "eyebrow": "Why Turnstone",
+    "title": "Advice from people who understand what you're going through.",
+    "items": [
+      {
+        "key": "training",
+        "title": "In-depth training",
+        "body": "As a CERTIFIED FINANCIAL PLANNER™ and Certified Divorce Financial Analyst, we go further than textbook recommendations."
+      },
+      {
+        "key": "experience",
+        "title": "First-hand experience",
+        "body": "Our advisors have personally worked through many of life's hardest transitions. We know it's never only about the numbers."
+      },
+      {
+        "key": "family",
+        "title": "Family-focused approach",
+        "body": "We take the time to understand your family, your values and what matters most, then plan around it."
+      }
+    ]
+  },
+  "resources": {
+    "eyebrow": "Not ready to talk yet?",
+    "title": "Get clarity on your own first.",
+    "guidesLabel": "Free guides",
+    "guides": [
+      {
+        "title": "3 Methods to Help Avoid Running Out of Money",
+        "body": "Practical ways to make your retirement savings go the distance.",
+        "cta": "Download the guide",
+        "href": "#"
+      },
+      {
+        "title": "4 Mistakes People Make With Their First Million",
+        "body": "Common missteps to watch for once your savings reach a new level.",
+        "cta": "Download the guide",
+        "href": "#"
+      }
+    ],
+    "toolsLabel": "Quick tools",
+    "tools": [
+      {
+        "title": "Retirement Readiness Quiz",
+        "meta": "Quiz",
+        "href": "#"
+      },
+      {
+        "title": "Risk Survey",
+        "meta": "Survey",
+        "href": "#"
+      },
+      {
+        "title": "401(k) Calculator",
+        "meta": "Calculator",
+        "href": "#"
+      },
+      {
+        "title": "Roth vs. Traditional IRA",
+        "meta": "Calculator",
+        "href": "#"
+      },
+      {
+        "title": "SECURE Act RMD Calculator",
+        "meta": "Calculator",
+        "href": "#"
+      },
+      {
+        "title": "College Readiness Quiz",
+        "meta": "Quiz",
+        "href": "#"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Questions",
+    "title": "Good questions to ask before you reach out.",
+    "items": [
+      {
+        "q": "Who do you usually work with?",
+        "a": "Individuals and families facing a major transition: getting close to retirement, changing jobs, going through a divorce, or managing finances after the death of a loved one."
+      },
+      {
+        "q": "What happens after I reach out?",
+        "a": "An advisor will get in touch to set up a first conversation. It's a chance to talk through what's changing and see whether we're the right fit, with no obligation."
+      },
+      {
+        "q": "Will you work with my attorney or accountant?",
+        "a": "Yes. Especially during a divorce or after a loss, we coordinate with your legal and tax professionals so everyone is working from the same plan."
+      },
+      {
+        "q": "What do your credentials mean for me?",
+        "a": "The CERTIFIED FINANCIAL PLANNER™ certification and the Certified Divorce Financial Analyst designation both require specialized education and examinations. For you, that means guidance grounded in real expertise, especially when the stakes are high."
+      },
+      {
+        "q": "How are advisory services provided?",
+        "a": "Through our registered investment advisory practice. Your advisor will walk you through exactly how we are paid and what we are responsible for before you sign anything."
+      }
+    ]
+  },
+  "contact": {
+    "id": "contact",
+    "eyebrow": "Request an appointment",
+    "title": "Let's talk about what's next.",
+    "body": "Share a little about your situation and an advisor will reach out. Prefer to talk now? Give us a call.",
+    "callLabel": "Call us",
+    "visitLabel": "Visit us",
+    "form": {
+      "nameLabel": "Full name",
+      "emailLabel": "Email",
+      "phoneLabel": "Phone (optional)",
+      "situationLabel": "What's changing?",
+      "situationPlaceholder": "Choose one",
+      "situationOptions": [
+        "I'm about to retire",
+        "I'm changing jobs",
+        "I'm getting divorced",
+        "I've lost a loved one",
+        "Something else"
+      ],
+      "messageLabel": "Anything you'd like us to know? (optional)",
+      "submit": "Request my appointment",
+      "sending": "Sending...",
+      "privacyNote": "We'll only use your details to respond to your request.",
+      "errors": {
+        "name": "Please enter your name.",
+        "email": "Please enter a valid email address.",
+        "situation": "Please choose the option that fits best."
+      },
+      "successTitle": "Thank you. We've got your request.",
+      "successBody": "An advisor will be in touch soon. If it's urgent, please call us."
+    }
+  }
+}

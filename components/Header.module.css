@@ -1,0 +1,225 @@
+.header {
+  position: fixed;
+  inset: 0 0 auto;
+  z-index: 100;
+  height: var(--header-h);
+  display: flex;
+  align-items: center;
+  transition:
+    transform 0.6s var(--ease-out),
+    background-color 0.4s ease,
+    box-shadow 0.4s ease;
+}
+
+.scrolled {
+  background: rgba(245, 243, 238, 0.86);
+  backdrop-filter: saturate(1.4) blur(14px);
+  -webkit-backdrop-filter: saturate(1.4) blur(14px);
+  box-shadow: 0 1px 0 var(--line);
+}
+
+.hidden {
+  transform: translateY(-100%);
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.logo {
+  display: block;
+  width: 176px;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 2;
+}
+.logo svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  color: var(--ink);
+}
+
+.nav ul {
+  display: flex;
+  gap: 6px;
+}
+
+.navLink {
+  position: relative;
+  display: inline-flex;
+  padding: 10px 14px;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--text);
+}
+/* Text roll on hover: the mask clips to one line, the copy waits below it */
+.navMask {
+  display: block;
+  height: 1.5em;
+  line-height: 1.5em;
+  overflow: hidden;
+}
+.navMask span {
+  display: block;
+  position: relative;
+  transition: transform 0.5s var(--ease-out);
+}
+.navMask span::after {
+  content: attr(data-text);
+  position: absolute;
+  left: 0;
+  top: 100%;
+  color: var(--brand);
+}
+.navLink:hover .navMask span {
+  transform: translateY(-100%);
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.login {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--muted);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.login:hover {
+  color: var(--brand);
+}
+
+.toggle {
+  display: none;
+  position: relative;
+  z-index: 2;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 1px solid var(--line);
+  background: var(--white);
+  cursor: pointer;
+}
+.toggle span {
+  position: absolute;
+  left: 15px;
+  right: 15px;
+  height: 1.6px;
+  background: var(--ink);
+  transition:
+    transform 0.45s var(--ease-out),
+    top 0.45s var(--ease-out);
+}
+.toggle span:first-child {
+  top: 19px;
+}
+.toggle span:last-child {
+  top: 27px;
+}
+.isOpen .toggle span:first-child {
+  top: 23px;
+  transform: rotate(45deg);
+}
+.isOpen .toggle span:last-child {
+  top: 23px;
+  transform: rotate(-45deg);
+}
+
+/* Mobile panel */
+.panel {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: calc(var(--header-h) + 32px) var(--gutter) 32px;
+  background: var(--brand);
+  color: var(--white);
+  overflow-y: auto;
+}
+.panel[hidden] {
+  display: none;
+}
+
+.panelNav ul {
+  display: grid;
+  gap: 4px;
+}
+.panelNav a {
+  display: block;
+  padding: 8px 0;
+  font-family: var(--font-display);
+  font-size: clamp(40px, 11vw, 64px);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  text-decoration: none;
+  border-bottom: 1px solid var(--line-light);
+}
+
+.panelFooter {
+  display: grid;
+  gap: 18px;
+  justify-items: start;
+  margin-top: 40px;
+}
+.panelPhone,
+.panelLogin {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.panelLogin {
+  color: var(--brand-300);
+}
+
+.isOpen {
+  background: transparent;
+  box-shadow: none;
+  backdrop-filter: none;
+}
+.isOpen .logo svg {
+  color: var(--white);
+}
+.isOpen .cta,
+.isOpen .login {
+  visibility: hidden;
+}
+
+@media (max-width: 1080px) {
+  .nav,
+  .login {
+    display: none;
+  }
+  .toggle {
+    display: block;
+  }
+}
+
+@media (max-width: 560px) {
+  .cta {
+    display: none;
+  }
+  .logo {
+    width: 128px;
+  }
+}
+
+@media (min-width: 1081px) {
+  .panel {
+    display: none !important;
+  }
+}
